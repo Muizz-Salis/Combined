@@ -10,7 +10,8 @@ const Register = () => {
   const [lastName, setLastName] = useState("")
   const [email, setEmail] = useState("")
   const [password, setPassword] = useState("")
-  let url ="http://localhost:5000/signup"
+  let url ="https://combined-one.vercel.app"
+  // let url ="http://localhost:5000/signup"
    const navigate = useNavigate()
   
   const registerUser = () =>{

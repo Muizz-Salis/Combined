@@ -7,7 +7,9 @@ const Dashhboard = () => {
   const navigate = useNavigate();
   const [data, setData] = useState([])
     const getData = () =>{
-      let url ="http://localhost:5000/dashboard"
+      let url ="https://combined-one.vercel.app/signin"
+      // let url ="http://localhost:5000/dashboard"
+
       axios.get(url)
       .then((response)=>{
         console.log(response.data);
